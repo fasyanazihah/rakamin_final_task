@@ -1,0 +1,4 @@
+ALTER TABLE Customers ADD PRIMARY KEY (CustomerID);
+ALTER TABLE Products ADD PRIMARY KEY (ProdNumber);
+ALTER TABLE Orders ADD PRIMARY KEY (OrderID);
+ALTER TABLE ProductCategory ADD PRIMARY KEY (CategoryID);
